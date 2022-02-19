@@ -61,7 +61,7 @@ $(document).ready(function () {
             }
         });
     });
-    
+    let tesxt ="Prueba Cambio";
     $(document).on("click", ".task-edit" , (e) => {
         const findId = $(this)[0].activeElement;
         const id = $(findId).attr("idedit");
